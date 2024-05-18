@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button (click)="cerrarModal()">
+        <ion-icon name="arrow-back"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>Publicación</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <app-formulario-aviso (avisoCreado)="crearAviso($event)"></app-formulario-aviso>
+</ion-content>

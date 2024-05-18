@@ -1,0 +1,7 @@
+{
+  "name": "ayuda-comunitaria",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}

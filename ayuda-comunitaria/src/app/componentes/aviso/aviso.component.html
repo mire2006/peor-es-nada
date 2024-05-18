@@ -1,0 +1,10 @@
+<ion-item>
+  <ion-img slot="start" *ngIf="aviso.imagen" [src]="aviso.imagen" style="width: 100px; height: 100px; object-fit: cover;"></ion-img> 
+  <ion-label>
+    <h2><strong>{{ aviso.titulo }}</strong></h2>
+    <p>{{ aviso.fecha | fecha }}</p>
+  </ion-label>
+  <ion-button slot="end" fill="clear" color="primary" size="medium" (click)="eliminarAviso()">
+    <ion-icon name="trash-outline"></ion-icon>
+  </ion-button>
+</ion-item>
